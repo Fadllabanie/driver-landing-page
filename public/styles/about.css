@@ -1,0 +1,83 @@
+.about .section {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.about .section-desc-small {
+    color: #363745;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 57px;
+}
+
+.about-section-desc {
+    color: #363745;
+    text-align: right;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55px; /* 171.875% */
+}
+
+.about .member-name {
+    color: #363745;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about .member-desc {
+    color: #363745;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about .members {
+    gap: 100px;
+}
+
+.about .contact-title {
+    color: #363745;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about .contact-value {
+    color: #363745;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.about .contact-us div {
+    margin-bottom: 95px;
+}
+
+.about .contact-us {
+    margin-bottom: 60px;
+}
+
+.about .social div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.about .social div a {
+    color: #363745;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}

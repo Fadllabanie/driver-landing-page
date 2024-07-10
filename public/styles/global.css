@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Expo Arabic';
+    src: url('../fonts/ExpoArabic-Book.ttf');
+}
+
+* {
+    font-family: "Expo Arabic" !important;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 100vw;
+    overflow: hidden;
+}
