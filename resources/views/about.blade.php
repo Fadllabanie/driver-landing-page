@@ -19,6 +19,8 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 
+
+
 </head>
 
 <body>
@@ -40,6 +42,8 @@
                                     </li>
                                     <li><a id="about" href="{{ route('about') }}" class="nav-link px-2">من نحن</a>
                                     </li>
+                                    <li><a id="about" href="https://app.driverksa.com/en/register" class="nav-link px-2">انضم لنا  </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -58,7 +62,7 @@
                     <label class="section-title">قصتنا</label>
                     <p class="about-section-desc">تأسست مؤسسة سائق للنقل البري والمالكة لتطبيق درايفر في بداية عام 2024
                         ،  بدأت
-                        من رغبة في تلبية الحاجة المتزايدة لخدمات قيادة احترافية وموثوقة. مؤسسنا، أحمد الفيصل، تخيل شركة
+                        من رغبة في تلبية الحاجة المتزايدة لخدمات قيادة احترافية وموثوقة.  تخيل شركة
                         لا
                         تقتصر على تلبية توقعات عملائنا , بل تتجاوزها بفهم عميق للثقافة المحلية والتحديات الفريدة للقيادة
                         في
@@ -193,6 +197,23 @@
 
 
     </div>
+
+<script>
+    (function(d,t) {
+      var BASE_URL="https://chat.bevatel.com";
+      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=BASE_URL+"/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g,s);
+      g.onload=function(){
+        window.socialAppSDK.run({
+          websiteToken: 'c2Y7954xxnJDs7bFNxhRf4Ba',
+          baseUrl: BASE_URL
+        })
+      }
+    })(document,"script");
+  </script>
 </body>
 
 </html>

@@ -19,6 +19,22 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 
+<script>
+    (function(d,t) {
+      var BASE_URL="https://chat.bevatel.com";
+      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=BASE_URL+"/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g,s);
+      g.onload=function(){
+        window.socialAppSDK.run({
+          websiteToken: 'c2Y7954xxnJDs7bFNxhRf4Ba',
+          baseUrl: BASE_URL
+        })
+      }
+    })(document,"script");
+  </script>
 </head>
 
 <body>
@@ -39,6 +55,8 @@
                                     <li><a id="landing" href="{{ route('home') }}" class="nav-link px-2">الرئيسيه</a>
                                     </li>
                                     <li><a id="about" href="{{ route('about') }}" class="nav-link px-2">من نحن</a>
+                                    </li> 
+                                    <li><a id="about" href="https://app.driverksa.com/en/register" class="nav-link px-2">انضم لنا  </a>
                                     </li>
                                 </ul>
                             </div>
@@ -61,8 +79,8 @@
                                 </div>
                             </div>
                             <div class="apps d-flex">
-                                <img src={{ asset('images/ios.png') }}>
-                                <img class="android" src={{ asset('images/android.png') }}>
+                                <a href="https://apps.apple.com/us/app/driver-app-%D8%AF%D8%B1%D8%A7%D9%8A%D9%81%D8%B1/id6451006397"> <img src={{ asset('images/ios.png') }}></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.tocaan.driver&pcampaignid=web_share" ><img class="android" src={{ asset('images/android.png') }}></a>
                             </div>
 
                         </div>
@@ -82,7 +100,7 @@
                             class="small-section align-items-center col-sm-3 d-flex flex-column justify-content-center">
                             <div class="d-flex gap-5 justify-content-center align-items-center"><label
                                     class="small-section-title">تصميم مذهل</label> <span class="number">2</span></div>
-                            <p class="small-section-desc">قمنا باستهداف اعدادات تتمتعبسهولة الإستخـدام لتلبيـة مـا
+                            <p class="small-section-desc">قمنا باستهداف اعدادات تتمتع بسهولة الإستخـدام لتلبيـة مـا
                                 تحتاجه  في
                                 التطبيق</p>
                         </div>
@@ -109,7 +127,7 @@
                             <div class="d-flex gap-5 justify-content-center align-items-center"><label
                                     class="small-section-title">موثق بشكل جيد</label> <span class="number">3</span>
                             </div>
-                            <p class="small-section-desc">قمنا باستهداف اعدادات تتمتعبسهولة الإستخـدام لتلبيـة مـا
+                            <p class="small-section-desc">قمنا باستهداف اعدادات تتمتع بسهولة الإستخـدام لتلبيـة مـا
                                 تحتاجه  في
                                 التطبيق</p>
                         </div>
@@ -338,7 +356,7 @@
                     <div class="overlay-apps"></div>
                     <div class="d-flex col-sm-12 justify-content-center align-items-center app-images-titles">
                         <div class="app-images-title">صور من التطبيق</div>
-                        <div class="app-images-desc">سنوضح لك خطوات التسجيل في البرنامج وذلك لمساعدتك في الاستفادة من
+                        <div class="app-images-desc">سنوض<br/> لك خطوات التسجيل في البرنامج وذلك لمساعدتك في الاستفادة من
                             التطبيق
                             بكل سهولة
                         </div>
@@ -393,11 +411,18 @@
                                 </h2>
                                 <div id="flush-collapseOne" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                        accordion
-                                        body.
+                                    <div class="accordion-body">
+                                        مؤسسة سائق للنقل البري
+
+                                        Driver هو تطبيق ذكي فريد من نوعه بتجربة عصرية جديدة وحديثة
+                                        
+                                        تطبيق Driver يحسن من تجربة النقل وسيارات الأجرة في المملكة العربية السعودية
+                                        
+                                        يوفر التطبيق وسيلة تنقل آمنة وموثوقة وسهلة للراكب ، وتوفر للزبائن الخدمة في أي وقت خلال 24h وفي أي مكان في المملكة
+                                        
+                                        يوفر التطبيق حلول وميزات رائعة للمستخدم بذلك يسهل عليه إستخدامه والإستمتاع بخدماتنا … ويوفر أيضاً إختصارات وحلول رائعة وبذلك يمكن للمستخدم حفظ مكان منزله او مكان عمله أو بيت العائلة حتى يسهل عليه طلب كابتن Driver بسرعة
+                                        
+                                        يتميز التطبيق بسيارات حديثة ومميزة وكادر رائع لنقدم للزبائن أفضل رحلة مريحة وأكثر أمان تهدف شركة Driver لتقديم أفضل خدمة في مجال سيارات الأجرة ، لتكون بذلك أفضل شركة على الإطلاق في هذا المجال  تطبيق Driver طريقك نحو التميز
                                     </div>
                                 </div>
                             </div>
@@ -411,11 +436,12 @@
                                 </h2>
                                 <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                        accordion
-                                        body. Let's imagine this being filled with some actual content.
+                                    <div class="accordion-body">
+                                        قم بفتح متجر هاتفك app store في نظام ios او Google play في أنظمة الآندرويد.
+                                        اضغط على أيقونة العدسة المكبرة لفتح شريط البحث، واكتب Driver  للبحث عن التطبيق.
+                                        انقر فوق تطبيق Driver.
+                                        انقر على “install” لتنزيل التطبيق .
+                                        انتظر ليكتمل تنزيل التطبيق وانتقل إلى صفحة التطبيق
                                     </div>
                                 </div>
                             </div>
@@ -429,15 +455,11 @@
                                 </h2>
                                 <div id="flush-collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                        accordion
-                                        body. Nothing more exciting happening here in terms of content, but just filling
-                                        up the
-                                        space to make it look, at least at first glance, a bit more representative of
-                                        how this
-                                        would look in a real-world application.
+                                    <div class="accordion-body">
+                                        التوجه الى متجر هاتفك
+                                        الضغط على  ايقونة العدسة المكبرة للبحث
+                                        البحث عن تطبيقنا driver في خانة البحث
+                                        النقر على ايقونة التطبيق
                                     </div>
                                 </div>
                             </div>
@@ -451,15 +473,28 @@
                                 </h2>
                                 <div id="flush-collapseFour" class="accordion-collapse collapse"
                                     aria-labelledby="flush-collapseFour" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is
-                                        intended to
-                                        demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                        accordion
-                                        body. Nothing more exciting happening here in terms of content, but just filling
-                                        up the
-                                        space to make it look, at least at first glance, a bit more representative of
-                                        how this
-                                        would look in a real-world application.
+                                    <div class="accordion-body">
+                                        مميزات تطبيق درايفر :
+
+                                        التميز في كيفية التسجيل
+                                        
+                                        واجهته المميزة التي تجعل حجز الرحلات أمرًا في غاية السهولة
+                                        
+                                        يمكن للمستخدمين الاختيار من بين مجموعة متنوعة من الخيارات واختيار رحلات طلب السيارة ،والرحلات المجدولة .
+                                        
+                                        يدعم اللغتين العربية والإنجليزية
+                                        
+                                        سرعته في تحديد موقعك بشكل سلس وواضح
+                                        
+                                        يوفر لكَ اختيار السيارة المناسبة لرحلاتك ، بالإضافة إلى تحديد مدة الرحلة
+                                        
+                                        يوفر لك تحديد موعد الرحلة بالوقت والتاريخ المناسب لك
+                                        
+                                        يمكنك ايضًا اختيار جنس الكابتن
+                                        
+                                        إمكانية تحديد اكثر من نقطة انطلاق وذهاب
+                                        
+                                        سرعة في التوصيل مع خدمة عملاء على مدار ٢٤ ساعة -اقل الأسعار ليصلك أقرب كابتن لموقعك واستمتع أثناء رحلتك مع درايفر !    
                                     </div>
                                 </div>
                             </div>
@@ -470,31 +505,31 @@
 
                 <!--********************************** APPS icons ********************************** -->
                 <div class="apps-footer gap-5 d-flex col-sm-12 justify-content-center">
-                    <img src={{ asset('images/ios.png') }}>
-                    <img class="android" src={{ asset('images/android.png') }}>
+                        <a href="https://apps.apple.com/us/app/driver-app-%D8%AF%D8%B1%D8%A7%D9%8A%D9%81%D8%B1/id6451006397"> <img src={{ asset('images/ios.png') }}></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.tocaan.driver&pcampaignid=web_share" ><img class="android" src={{ asset('images/android.png') }}></a>
                 </div>
 
 
                 <!--********************************** Footer ********************************** -->
                 <div class="footer col-sm-12 d-flex justify-content-center align-items-center">
                     <div>
-                        <img src={{ asset('images/social-media/social.png') }}>
+                        <a href="https://www.tiktok.com/@drv_app"> <img src={{ asset('images/social-media/social.png') }}></a>
                     </div>
                     <div>
-                        <img src={{ asset('images/social-media/whatsapp.png') }}>
+                        <a href="https://api.whatsapp.com/send?phone=966920031452"> <img src={{ asset('images/social-media/whatsapp.png') }}></a>
                     </div>
                     <div>
-                        <img src={{ asset('images/social-media/twitter.png') }}>
+                        <a href="https://x.com/drv_app"><img src={{ asset('images/social-media/twitter.png') }}></a>
                     </div>
-                    <div>
+                    {{-- <div>
                         <img src={{ asset('images/social-media/insta.png') }}>
 
+                    </div> --}}
+                    <div>
+                        <a href="https://www.instagram.com/drv_app/"><img src={{ asset('images/social-media/insta.png') }}></a>
                     </div>
                     <div>
-                        <img src={{ asset('images/social-media/insta.png') }}>
-                    </div>
-                    <div>
-                        <img src={{ asset('images/social-media/facebok.png') }}>
+                        <a href="https://www.facebook.com/profile.php?id=61552925038979"> <img src={{ asset('images/social-media/facebok.png') }}></a>
                     </div>
                 </div>
             </div>
