@@ -34,7 +34,18 @@
         })
       }
     })(document,"script");
+
+    setInterval(function () {
+
+var current = $('.app-carousel input:checked').attr('index');
+console.log(current)
+var index = parseInt(current) === 5 ? 1 : parseInt(current) + 1;
+$('#input-carousel_' + current).attr('checked', false)
+$('#input-carousel_' + index).attr('checked', true);
+}, 5000);
   </script>
+
+  
 </head>
 
 <body>
@@ -92,47 +103,42 @@
                 <div class="definition d-flex flex-column col-sm-11">
                     <div class="section align-items-center col-sm-12 d-flex flex-column justify-content-center">
                         <label class="section-title"> تطبيق Driver App</label>
-                        <p class="section-desc">عرض تطبيق مذهل وقوي  حيث إنه مجهز بمميزات مذهلة ويأتي مع دعم أكثر روعة
-                        </p>
+                        <p class="section-desc">عرض تطبيق مذهل وقوي  حيث إنه مجهز بمميزات مذهلة ويأتي مع دعم أكثر روعة</p>
                     </div>
                     <div class="d-flex col-sm-12">
-                        <div
-                            class="small-section align-items-center col-sm-3 d-flex flex-column justify-content-center">
-                            <div class="d-flex gap-5 justify-content-center align-items-center"><label
+                        <div class="small-section align-items-center col-sm-3 d-flex flex-column justify-content-center">
+                            <div class="d-flex gap-3 justify-content-center align-items-center"><label
                                     class="small-section-title">تصميم مذهل</label> <span class="number">2</span></div>
-                            <p class="small-section-desc">قمنا باستهداف اعدادات تتمتع بسهولة الإستخـدام لتلبيـة مـا
-                                تحتاجه  في
+                            <p class="small-section-desc">قمنا باستهداف اعدادات تتمتع
+        بسهولة الإستخـدام لتلبيـة مـا تحتاجه  في
                                 التطبيق</p>
                         </div>
-                        <div
-                            class="small-section center align-items-center col-sm-6 d-flex flex-column justify-content-center">
+                        <div class="small-section center align-items-center col-sm-6 d-flex flex-column justify-content-center">
                             <div class="bg-color-1">
-                                <img src={{ asset('images/1.png') }} class="large-center-img">
+                                <img src="{{asset('images/1.png')}}" class="large-center-img">
                             </div>
                         </div>
-                        <div
-                            class="small-section align-items-center col-sm-3 d-flex flex-column justify-content-center">
-                            <div class="d-flex gap-5 justify-content-center align-items-center"><label
-                                    class="small-section-title">سهولة الإعدادات</label> <span class="number">1</span>
-                            </div>
-                            <p class="small-section-desc">قمنا باستهداف اعدادات تتمتع بسهولة الإستخـدام لتلبيـة مـا
-                                تحتاجه  في
+                        <div class="small-section align-items-center col-sm-3 d-flex flex-column justify-content-center">
+                            <div class="d-flex gap-3 justify-content-center align-items-center"><label
+                                    class="small-section-title">سهولة الإعدادات</label> <span class="number">1</span></div>
+                            <p class="small-section-desc">قمنا باستهداف اعدادات تتمتع
+         بسهولة الإستخـدام لتلبيـة مـا تحتاجه  في
                                 التطبيق</p>
                         </div>
                     </div>
-
+        
                     <div class="d-flex col-sm-12 justify-content-center mt-5">
-                        <div
-                            class="small-section align-items-center col-sm-4 d-flex flex-column justify-content-center">
-                            <div class="d-flex gap-5 justify-content-center align-items-center"><label
-                                    class="small-section-title">موثق بشكل جيد</label> <span class="number">3</span>
-                            </div>
-                            <p class="small-section-desc">قمنا باستهداف اعدادات تتمتع بسهولة الإستخـدام لتلبيـة مـا
-                                تحتاجه  في
+                        <div class="small-section align-items-center col-sm-4 d-flex flex-column justify-content-center">
+                            <div class="d-flex gap-3 justify-content-center align-items-center"><label
+                                    class="small-section-title">موثق بشكل جيد</label> <span class="number">3</span></div>
+                            <p class="small-section-desc">قمنا باستهداف اعدادات تتمتع
+        بسهولة الإستخـدام لتلبيـة مـا تحتاجه  في
                                 التطبيق</p>
                         </div>
                     </div>
                 </div>
+        
+        
 
                 <!--********************************** steps ********************************** -->
                 <div class="steps d-flex flex-column col-sm-12">
@@ -356,40 +362,39 @@
                     <div class="overlay-apps"></div>
                     <div class="d-flex col-sm-12 justify-content-center align-items-center app-images-titles">
                         <div class="app-images-title">صور من التطبيق</div>
-                        <div class="app-images-desc">سنوض<br/> لك خطوات التسجيل في البرنامج وذلك لمساعدتك في الاستفادة من
-                            التطبيق
+                        <div class="app-images-desc">سنوضح لك خطوات التسجيل في البرنامج وذلك لمساعدتك في الاستفادة من التطبيق
                             بكل سهولة
                         </div>
                     </div>
-
+        
                     <div class="images">
                         <div class="app-carousel">
-                            <input type="radio" name="position" />
-                            <input type="radio" name="position" />
-                            <input type="radio" name="position" checked />
-                            <input type="radio" name="position" />
-                            <input type="radio" name="position" />
+                            <input id="input-carousel_1" type="radio" index="1" name="position"/>
+                            <input id="input-carousel_2" type="radio" index="2" name="position"/>
+                            <input id="input-carousel_3" type="radio" index="3" name="position" checked/>
+                            <input id="input-carousel_4" type="radio" index="4" name="position"/>
+                            <input id="input-carousel_5" type="radio" index="5" name="position"/>
                             <main id="carousel">
                                 <div class="item">
-                                    <img src={{ asset('images/app-image-5.png') }}>
+                                    <img src="{{asset('images/app-image-5.png')}}">
                                 </div>
                                 <div class="item">
-                                    <img src={{ asset('images/app-image-4.png') }}>
+                                    <img src="{{asset('images/app-image-4.png')}}">
                                 </div>
                                 <div class="item">
-                                    <img src={{ asset('images/app-image-3.png') }}>
+                                    <img src="{{asset('images/app-image-3.png')}}">
                                 </div>
                                 <div class="item">
-                                    <img src={{ asset('images/app-image-2.png') }}>
+                                    <img src="{{asset('images/app-image-2.png')}}">
                                 </div>
                                 <div class="item">
-                                    <img src={{ asset('images/app-image-1.png') }}>
+                                    <img src="{{asset('images/app-image-1.png')}}">
                                 </div>
                             </main>
                         </div>
                     </div>
                 </div>
-
+        
 
                 <!--********************************** FAQs ********************************** -->
                 <div class="col-sm-12 faqs d-flex py-5">
