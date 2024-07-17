@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Driver</title>
-    <link href="{{ asset('styles/landing.css') }}?v=1.2.0" rel="stylesheet">
+    <link href="{{ asset('styles/landing.css') }}?v=1.3.0" rel="stylesheet">
     <link href="{{ asset('styles/about.css') }}" rel="stylesheet">
     <link href="{{ asset('styles/global.css') }}" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
@@ -213,7 +213,7 @@
                         </div>
                         <div class="align-items-center col-sm-12 d-flex flex-column stepper-desc">
                             <img class="dot" src={{ asset('images/title.svg') }}>
-                            <p class="stepper-title">تحديد العنوان</p>
+                            <p class="stepper-title stepper-title-mobile">تحديد العنوان</p>
                         </div>
                     </div>
                     <img class="dash" src={{ asset('images/dash.svg') }}>
@@ -224,7 +224,7 @@
                         </div>
                         <div class="align-items-center col-sm-12 d-flex flex-column stepper-desc">
                             <img class="dot" src={{ asset('images/period.svg') }}>
-                            <p class="stepper-title">تحديد مده الرحلة</p>
+                            <p class="stepper-title stepper-title-mobile">تحديد مده الرحلة</p>
                         </div>
                     </div>
                     <img class="dash" src={{ asset('images/dash.svg') }}>
@@ -235,7 +235,7 @@
                         </div>
                         <div class="align-items-center col-sm-12 d-flex flex-column stepper-desc">
                             <img class="dot" src={{ asset('images/car-type.svg') }}>
-                            <p class="stepper-title">تحديد نوع السيارة</p>
+                            <p class="stepper-title stepper-title-mobile">تحديد نوع السيارة</p>
                         </div>
                     </div>
                     <img class="dash" src={{ asset('images/dash.svg') }}>
@@ -246,7 +246,7 @@
                         </div>
                         <div class="align-items-center col-sm-12 d-flex flex-column stepper-desc">
                             <img class="dot" src={{ asset('images/payment.png') }}>
-                            <p class="stepper-title">تحديد طريقة الدفع</p>
+                            <p class="stepper-title stepper-title-mobile">تحديد طريقة الدفع</p>
                         </div>
                     </div>
                     <img class="dash" src={{ asset('images/dash.svg') }}>
@@ -257,7 +257,7 @@
                         </div>
                         <div class="align-items-center col-sm-12 d-flex flex-column stepper-desc">
                             <img class="dot" src={{ asset('images/trip.svg') }}>
-                            <p class="stepper-title">تحديد مده الرحلة</p>
+                            <p class="stepper-title stepper-title-mobile">تحديد مده الرحلة</p>
                         </div>
                     </div>
                     <img class="dash" src={{ asset('images/dash.svg') }}>
@@ -268,10 +268,10 @@
                         </div>
                         <div class="align-items-center col-sm-12 d-flex flex-column stepper-desc">
                             <img class="dot" src={{ asset('images/driver.svg') }}>
-                            <p class="stepper-title">طلب الكابتن</p>
+                            <p class="stepper-title stepper-title-mobile">طلب الكابتن</p>
                         </div>
                     </div>
-                    <img class="dash" src={{ asset('images/dash.svg') }} style="visibility: hidden">
+                    <img class="dash" src="{{ asset('images/dash.svg') }}" style="visibility: hidden">
 
 
                 </div>
