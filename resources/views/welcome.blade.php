@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Driver</title>
-    <link href="{{ asset('styles/landing.css') }}?v=1.1.0" rel="stylesheet">
+    <link href="{{ asset('styles/landing.css') }}?v=1.2.0" rel="stylesheet">
     <link href="{{ asset('styles/about.css') }}" rel="stylesheet">
     <link href="{{ asset('styles/global.css') }}" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
@@ -63,7 +63,6 @@
                                 <img src={{ asset('images/logo.png') }} class="header-logo">
                             </a>
                         </div>
-
                         <div class="text-end col-10">
                             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 mb-md-0 text-end justify-content-end">
                                 <li><a id="landing" href="{{ route('home') }}" class="nav-link px-2">الرئيسيه</a>
@@ -294,14 +293,14 @@
                 </div>
                 <div class="col-sm-12 d-flex">
                     <div class="d-flex col-sm-6 stepper-dots-and-dashed flex-column">
-                        <div class="d-flex px-5 vertical-step">
+                        <div class="d-flex pe-5 vertical-step">
                             <img class="dot" src={{ asset('images/payment.png') }}>
                             <img class="dot" src={{ asset('images/dot.svg') }}>
                             <p class="stepper-title">تعبئة المحفظة</p>
                         </div>
                         <img class="vertical-dash" src={{ asset('images/dash.svg') }}>
 
-                        <div class="d-flex px-5 vertical-step">
+                        <div class="d-flex pe-5 vertical-step">
                             <img class="dot" src={{ asset('images/click-schedule.svg') }}>
                             <img class="dot" src={{ asset('images/dot.svg') }}>
                             <p class="stepper-title">الضغط على الرحلات المجدولة</p>
@@ -309,7 +308,7 @@
                         <img class="vertical-dash" src={{ asset('images/dash.svg') }}>
 
 
-                        <div class="d-flex px-5 vertical-step">
+                        <div class="d-flex pe-5 vertical-step">
                             <img class="dot" src={{ asset('images/period.svg') }}>
                             <img class="dot" src={{ asset('images/dot.svg') }}>
                             <p class="stepper-title" style="line-height: 12px; white-space: pre-line; text-align: start; margin-bottom: 0; ">تحديد موعيد الرحلات الاسبوعية يوميا أو بالايام المحددة
@@ -320,7 +319,7 @@
                         </div>
                         <img class="vertical-dash" src={{ asset('images/dash.svg') }}>
 
-                        <div class="d-flex px-5 vertical-step">
+                        <div class="d-flex pe-5 vertical-step">
                             <img class="dot" src={{ asset('images/trip.svg') }}>
                             <img class="dot" src={{ asset('images/dot.svg') }}>
                             <p class="stepper-title">تحديد ساعة انطلاق الرحلة</p>
@@ -328,7 +327,7 @@
                         <img class="vertical-dash" src={{ asset('images/dash.svg') }}>
 
 
-                        <div class="d-flex px-5 vertical-step">
+                        <div class="d-flex pe-5 vertical-step">
                             <img class="dot" src={{ asset('images/driver.svg') }}>
                             <img class="dot" src={{ asset('images/dot.svg') }}>
                             <p class="stepper-title">يستدعى السائق أوتوماتيكي (متواجدين 24ساعة في اليوم )</p>
@@ -336,7 +335,7 @@
                         <img class="vertical-dash" src={{ asset('images/dash.svg') }}>
 
 
-                        <div class="d-flex px-5 vertical-step">
+                        <div class="d-flex pe-5 vertical-step">
                             <img class="dot" src={{ asset('images/launch.svg') }}>
                             <img class="dot" src={{ asset('images/dot.svg') }}>
                             <p class="stepper-title">تحديد مكان الانطلاق (منزل -مدرسة- جامعة -عمل)</p>
@@ -344,7 +343,7 @@
                         <img class="vertical-dash" src={{ asset('images/dash.svg') }}>
 
 
-                        <div class="d-flex px-5 vertical-step">
+                        <div class="d-flex pe-5 vertical-step">
                             <img class="dot" src={{ asset('images/distnation.svg') }}>
                             <img class="dot" src={{ asset('images/dot.svg') }}>
                             <p class="stepper-title">تحديد مكان الوصول (منزل- مدرسة -جامعة- عمل)</p>
@@ -352,7 +351,7 @@
                         <img class="vertical-dash" src={{ asset('images/dash.svg') }}>
 
 
-                        <div class="d-flex px-5 vertical-step">
+                        <div class="d-flex pe-5 vertical-step">
                             <img class="dot" src={{ asset('images/car-type.svg') }}>
                             <img class="dot" src={{ asset('images/dot.svg') }}>
                             <p class="stepper-title">تحديد نوع السيارة المناسبة لرحلاتك (اقتصادية-صالون
@@ -361,7 +360,7 @@
                         <img class="vertical-dash" src={{ asset('images/dash.svg') }}>
 
 
-                        <div class="d-flex px-5 vertical-step">
+                        <div class="d-flex pe-5 vertical-step">
                             <img class="dot" src={{ asset('images/save.svg') }}>
                             <img class="dot" src={{ asset('images/dot.svg') }}>
                             <p class="stepper-title">الضغط على حفظ لإضافتها للرحلات المجدولة</p>
