@@ -625,6 +625,9 @@ input:nth-of-type(5):checked ~ main#carousel {
     .bg-color-3 img{
         width: 100%;
     }
+    .stepper-title-mobile{
+        font-size: 17px
+    }
 }
 @media (max-width: 1400px) {
     .img-double img {

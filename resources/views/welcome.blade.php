@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Driver</title>
-    <link href="{{ asset('styles/landing.css') }}?v=1.3.0" rel="stylesheet">
+    <link href="{{ asset('styles/landing.css') }}?v=1.4.0" rel="stylesheet">
     <link href="{{ asset('styles/about.css') }}" rel="stylesheet">
     <link href="{{ asset('styles/global.css') }}" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
