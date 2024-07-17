@@ -597,7 +597,7 @@ input:nth-of-type(5):checked ~ main#carousel {
         gap: 0px;
         column-gap: 0px;
     }
-    . stepper-title-mobile{
+    .stepper-title-mobile{
         font-size: 17px
     }
 }
