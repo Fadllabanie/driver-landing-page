@@ -63,6 +63,7 @@
                                 <img src={{ asset('images/logo.png') }} class="header-logo">
                             </a>
                         </div>
+
                         <div class="text-end col-10">
                             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 mb-md-0 text-end justify-content-end">
                                 <li><a id="landing" href="{{ route('home') }}" class="nav-link px-2">الرئيسيه</a>
