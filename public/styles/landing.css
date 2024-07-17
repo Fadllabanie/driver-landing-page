@@ -70,29 +70,11 @@
 .desc .title {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 43.32%, rgba(255, 255, 255, 0.00) 85.56%);
     padding: 29px;
-    gap: 29px;
+    gap: 5px;
     margin-bottom: 150px;
     border-radius: 10px;
     /*width: 555px;*/
     height: 270px;
-}
-
-@media (min-width: 576px) {
-    .bg-color-1 img{
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    .bg-color-2 img{
-        width: 100%;
-    }
-    .bg-color img{
-        width: 100%;
-    }
-    .bg-color-3 img{
-        width: 100%;
-    }
 }
 
 .desc .title .title-desc {
@@ -579,6 +561,64 @@ input:nth-of-type(5):checked ~ main#carousel {
     justify-content: center;
 }
 
+@media screen and (min-width: 576px) {
+    .header-logo{
+        width: 245px;
+    }
+    .nav{
+        justify-content: end;
+        gap: 50px;
+        padding-left: calc(90px - 3rem)!important;
+    }
+    .bg-color-1 img{
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .small-section-title{
+        font-size: 21px;
+    }
+    .dash{
+        width: 20px;
+    }
+    .bg-color-2 img{
+        width: 100%;
+    }
+    .bg-color img{
+        width: 100%;
+    }
+    .bg-color-3 img{
+        width: 100%;
+    }
+    .schedule .stepper-title{
+        line-height: 23px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-logo{
+        width: 245px;
+    }
+    .nav{
+        justify-content: end;
+        gap: 50px;
+        padding-left: calc(90px - 3rem) !important;
+    }
+    .bg-color-1 img{
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .bg-color-2 img{
+        width: 100%;
+    }
+    .bg-color img{
+        width: 90%;
+    }
+    .bg-color-3 img{
+        width: 100%;
+    }
+}
 @media (max-width: 1400px) {
     .img-double img {
         width: 300px;
