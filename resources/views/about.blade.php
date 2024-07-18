@@ -58,7 +58,7 @@
                         السعودية.مهمتنا هي تقديم حلول قيادة موثوقة وآمنة وفعالة للأفراد والشركات على حد سواء.</p>
                 </div>
 
-                <div class="section align-items-center col-sm-11 d-flex flex-column justify-content-center">
+                {{-- <div class="section align-items-center col-sm-11 d-flex flex-column justify-content-center">
                     <label class="section-title">قصتنا</label>
                     <p class="about-section-desc">تأسست مؤسسة سائق للنقل البري والمالكة لتطبيق درايفر في بداية عام 2024
                         ،  بدأت
@@ -67,7 +67,7 @@
                         تقتصر على تلبية توقعات عملائنا , بل تتجاوزها بفهم عميق للثقافة المحلية والتحديات الفريدة للقيادة
                         في
                         المملكة العربية السعودية، انطلق أحمد لإنشاء خدمة تعطي الأولوية للسلامة والراحة ورضا العملاء </p>
-                </div>
+                </div> --}}
 
 
                 <div class="section align-items-center col-sm-11 d-flex flex-column justify-content-center">
@@ -107,7 +107,7 @@
                 </div>
 
 
-                <div class="section align-items-center col-sm-11 d-flex flex-column justify-content-center">
+                {{-- <div class="section align-items-center col-sm-11 d-flex flex-column justify-content-center">
                     <label class="section-title">تعرف على فريقنا</label>
                     <p class="about-section-desc">فريقنا هو أفضل أصولنا. من سائقي جميع فئات السيارات المهرة إلى موظفي
                         دعم
@@ -167,7 +167,7 @@
                             <a href="https://www.instagram.com/drv_app/" target="_blank">Instagram</a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
 
                 <!--********************************** Footer ********************************** -->
