@@ -70,7 +70,7 @@
                                 </li>
                                 <li><a id="about" href="{{ route('about') }}" class="nav-link px-2">من نحن</a>
                                 </li>
-                                <li><a id="about" href="https://app.driverksa.com/ar/register" class="nav-link px-2">انضم كسائق</a>
+                                <li><a id="about" href="https://new-app.driverksa.com/ar/register" class="nav-link px-2">انضم كسائق</a>
                                 </li>
                             </ul>
                         </div>
